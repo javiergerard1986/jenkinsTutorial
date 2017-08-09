@@ -15,6 +15,7 @@ public class NewTest {
 	@Test				
 	public void testEasy() {	
 			
+		//Comment to delete
 		driver.get("http://demo.guru99.com/selenium/guru99home/");  
 		String title = driver.getTitle();				 
 		Assert.assertTrue(title.contains("Demo Guru99 Page")); 		
